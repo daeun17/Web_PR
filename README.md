@@ -8,5 +8,5 @@
 **⇒ 인터넷은 TCP/IP 라는 통신 프로토콜을 이용해 정보를 주고 받는 컴퓨터 네트워크이다.**
 5. 인터넷의 연결  
 ![인터넷 연결 방식](https://www.notion.so/WEB-88c8b812789f47f68fad51ea447a4db0#9ef676479e3f4407867d1923b1c76461)  
-[logo] : https://media.vlpt.us/images/ckstn0777/post/d974e350-5417-4982-a676-f7eed8ecf50c/image.png "인터넷 연결 방식
+
 

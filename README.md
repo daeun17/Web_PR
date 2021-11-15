@@ -53,6 +53,21 @@
 - API : 컴포넌트를 사용하는 규약, 호출을 위한 수단, 구현 로직x  
 - 라이브러리 : 컴포넌트 자체, 구현 로직o , 코드 컨트롤o    
 - 프레임워크 : 규칙에 따라 코드 작성  
+5. Web Server : HTTP를 통해 웹 브라우저에서 요청하는 HTML 문서나 오브젝트를 전송해 주는 서비스 프로그렘  
+ → 하드웨어적 측면 : Web server의 소프트웨어와 컴포넌트파일(HTML문서, CSS stylsheets, JavaScript file)을 저장하고 있는 컴퓨터  
+ → 소프트웨어 측면 : 클라이언트로부터 HTTP 요청을 받아들이고, HTML 문서와 같은 웹 페이지를 반환하는 컴퓨터 프로그램  
+ - 정적컨텐츠(HTML,CSS,IMAGE 등) 처리 : 웹 서버  
+ - 동적컨텐츠(JSP,ASP,PHP,Servlet 등) 처리 : 웹 서버 + WAS 
+ >?? 동적 컨텐츠 처리 : 클라이언트 자원 사용(JavaScript), 서버 측 자원 사용(JSP)  
+ > J Query VS Servlet VS JSP VS JavaScript
+ > - J Query : JavaScript라이브러리의 일종  
+ > - Servlet : Java를 이용하여 HTMl문서를 출력 → 간단 ⇒ JSP등장  
+ > - JSP(Java Server Page) : html, JavaScript, Java문법 모두 사용 가능, 언어의 종류x, 웹서버에서 웹페이지 생성해서 브라우저에게 돌려 준다.  
+ > - JavaScript : 스크립트언어, 웹 브라우저에서 바로 실행
+ 6. WAS(Web Application Server) : 클라이언트로 부터 웹 서버가 요청을 받으면 애플리케이션에 대한 로직을 실행하여 웹 서버로 다시 반환해 주는 소프트웨어
+ > Web Server 와 WAS의 동작 과정
+ > ![WebServer_WAS](./img/WebServer_WAS.jpg)
+
 
 
 
